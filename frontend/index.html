@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Mantenimiento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>Gestión de Equipos</h1>
+    <ul>
+      <li><a href="#" onclick="loadEquipos()">Equipos Próximos</a></li>
+      <li><a href="#" onclick="loadCostos()">Costos</a></li>
+      <li><a href="#" onclick="loadAlertas()">Alertas</a></li>
+      <li><a href="#" onclick="loadMTTR()">MTTR</a></li>
+      <li><a href="#" onclick="loadMTBF()">MTBF</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <div id="data-container" class="data-container">
+      <p>Selecciona una opción del menú.</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
